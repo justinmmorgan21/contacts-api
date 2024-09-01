@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get "/first_contact" => "contacts#first_contact"
   
   get "/all_contacts" => "contacts#all_contacts"
+
+  get "/console" => "contacts#to_terminal"
   # Defines the root path route ("/")
   # root "posts#index"
 end
